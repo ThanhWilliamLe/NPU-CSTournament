@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,400,700&subset=vietnamese');
+
+html
+{
+    background: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#content
+{
+    margin: auto;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#banner-holder
+{
+    height: 20%;
+    background: url("https://cdn.windowsreport.com/wp-content/uploads/2018/05/camo_bg2.jpg");
+    object-fit: cover;
+}
+
+#rankings
+{
+    height: 60%;
+    margin: 5%;
+    color:white;
+    border-collapse: collapse;
+    border: 2px dashed white;
+}
+
+#rankings th
+{
+    background: #FDD63E;
+    font-size: x-large;
+    font-weight: 700;
+    color: black;
+}
+
+#rankings td
+{
+    text-align: center;
+    font-size: large;
+    font-weight: 400;
+}
+
+#rankings tr:nth-child(even) td
+{
+    background-color: #111111;
+}
+
+#rankings tr:nth-child(2) td
+{
+    color: #FDD63E;
+}
